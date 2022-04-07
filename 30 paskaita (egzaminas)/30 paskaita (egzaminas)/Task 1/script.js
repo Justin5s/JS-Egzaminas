@@ -8,3 +8,14 @@ pamatyti jo pateikto svorio kovertavimą į:
 Pastaba: atvaizdavimas turi būti matomas pateikus formą ir pateikiamas
 <div id="output"></div> viduje, bei turi turėti bent minimalų stilių;
 ------------------------------------------------------------------- */
+
+// Nusitaikom
+const buttonEl = document.getElementById("submit-btn");
+const inputEl = document.getElementById("search");
+const outputEl = document.getElementById("output");
+
+// buttonEl.addEventListener("click", event => {
+//     event.preventDefault();
+// });
+
+function weightConverter()

@@ -1,6 +1,6 @@
 /* ------------------------------ TASK 4 -----------------------------------
 Parašykite JS kodą, vartotjui atėjus į tinklapį kreipsis į cars.json failą
-ir iš atvaizduos visus automobilių gamintojus ir pagamintus modelius. 
+ir iš kurio atvaizduos visus automobilių gamintojus ir pagamintus modelius. 
 Kiekvienas gamintojas turės savo atvaizdavimo "kortelę", kurioje bus 
 nurodomas gamintojas ir jo pagaminti modeliai.
 
