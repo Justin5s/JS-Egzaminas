@@ -14,8 +14,14 @@ const buttonEl = document.getElementById("submit-btn");
 const inputEl = document.getElementById("search");
 const outputEl = document.getElementById("output");
 
-// buttonEl.addEventListener("click", event => {
-//     event.preventDefault();
-// });
+buttonEl.addEventListener("click", event => {
+    event.preventDefault();
+    return weightConverter ();
+});
 
-function weightConverter()
+function weightConverter(destination, input) {
+  const inputValue = Number(input.value);
+  const lb = inputValue * 2.2046;
+  const g = inputValue / 0.001;
+  const oz = inputValue * 35.274;
+}
